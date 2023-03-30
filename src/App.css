@@ -13,4 +13,19 @@
   max-width: 500px;
   border: 1px solid white;
   border-radius: 20px;
+  overflow: scroll;
+  scrollbar-width: none;
+}
+
+/* Esconde a scroll bar no chrome, safari e opera*/
+
+.app_videos::-webkit-scrollbar {
+  display: none;
+}
+
+/* Esconde a scroll bar no internet explore, edger e firefox*/
+
+.app_videos {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
