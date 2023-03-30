@@ -11,7 +11,7 @@
   max-height: 800px;
   width: 80%;
   max-width: 500px;
-  border: 1px solid white;
+  border: none;
   border-radius: 20px;
   overflow: scroll;
   scroll-snap-type: y mandatory;
