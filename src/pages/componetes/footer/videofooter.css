@@ -1,7 +1,8 @@
 .videofooter{
     position: relative;
-    bottom: 200px;
+    bottom: 20%;
     color: white;
+    margin-left: 30px;
 }
 
 .videofooter__text h3 {
@@ -10,4 +11,26 @@
 
 .videofooter__text p {
     padding-bottom: 20px;
+}
+
+.videofooter__music {
+    display: flex;
+}
+
+.videofooter__record {
+    animation: spinTheRecord 3s infinite linear;
+    position: absolute;
+    bottom: 5px;
+    right: 20px;
+    height: 50px;
+    filter: invert(1);
+}
+
+@keyframes spinTheRecord {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
 }
