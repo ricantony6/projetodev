@@ -17,6 +17,15 @@
     display: flex;
 }
 
+.videofootermusic__text {   
+    width: 80%;
+    overflow: hidden;
+}
+
+.videofootermusic__text p {
+    animation: moveTheText 3s infinite linear;
+}
+
 .videofooter__record {
     animation: spinTheRecord 3s infinite linear;
     position: absolute;
@@ -35,6 +44,11 @@
     }
 }
 
-.videofootermusic__text {
-
+@keyframes moveTheText {
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
 }
