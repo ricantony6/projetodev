@@ -1,4 +1,5 @@
 import React, { useRef, useState } from 'react'
+import Videofooter from './componetes/footer/videofooter'
 import "./video.css"
 
 function Video() {
@@ -30,9 +31,11 @@ function Video() {
 
         >
         </video>
+        {/* side bar */}
+        <Videofooter />
 
     </div>
   )
 }
 
-export default Video
+export default Video;
