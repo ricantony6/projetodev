@@ -1,0 +1,13 @@
+.videofooter{
+    position: relative;
+    bottom: 200px;
+    color: white;
+}
+
+.videofooter__text h3 {
+    padding-bottom: 20px;
+}
+
+.videofooter__text p {
+    padding-bottom: 20px;
+}
